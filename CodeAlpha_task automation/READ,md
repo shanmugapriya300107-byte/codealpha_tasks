@@ -1,0 +1,64 @@
+# 📂 Smart File Organizer
+
+A Python automation project that organizes files inside a folder into proper categories and generates a summary report.
+
+## 🚀 What it does
+This script scans a folder and automatically moves files into:
+- Images
+- Documents
+- Videos
+- Audio
+- Others
+
+It also creates a report showing how many files were moved in each category.
+
+## 🛠 Tech Stack
+- Python 3
+- os module
+- shutil module
+- datetime module
+
+## ⚙️ Features
+- Auto file sorting by extension
+- Automatic folder creation
+- Duplicate file handling (safe move)
+- Summary report generation
+- Simple command-line interface
+
+## 📁 Output Structure
+
+Selected Folder/
+├── Images/
+├── Documents/
+├── Videos/
+├── Audio/
+├── Others/
+└── report.txt
+
+
+## 💻 Example Output
+
+Moved: photo.jpg -> Images
+Moved: resume.pdf -> Documents
+Moved: song.mp3 -> Audio
+Moved: clip.mp4 -> Videos
+
+
+## 📊 Report Example
+
+SMART FILE ORGANIZER REPORT
+
+Date & Time: 21-06-2026 18:45:10
+
+Total Files Moved: 25
+
+Images: 10
+Documents: 6
+Videos: 4
+Audio: 3
+Others: 2
+
+
+## 👩‍💻 Author
+R. Shanmugapriya  
+Python Internship Project
